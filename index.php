@@ -20,7 +20,23 @@
             One Normal Ave, Montclair
             New Jersey NJ 07043
             973-655-4166
+
         </P>
+
+        <h1><?php echo 'This is a heading'; ?></h1>
+        <p><?php echo 'This is a paragraph.'; ?></p>
+        <ul>
+            <li><?php echo 'List item 1'; ?></li>
+            <li><?php echo 'List item 2'; ?></li>
+            <li><?php echo 'List item 3'; ?></li>
+        </ul>
+        <ol>
+            <li><?php echo 'Ordered item 1'; ?></li>
+            <li><?php echo 'Ordered item 2'; ?></li>
+            <li><?php echo 'Ordered item 3'; ?></li>
+        </ol>
+
+
     </main>
 
     <?php include("./view/footer.php"); ?>
