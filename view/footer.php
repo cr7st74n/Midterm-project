@@ -1,10 +1,14 @@
 <footer class="bg-body-tertiary text-center text-lg-start">
-
-        <div class="row justify-content-md-center text-Dark bg-primary  ">
-                © 2020 Copyright:
-                <a class="text-body row justify-content-md-center" href="">groupA.com</a>
-
-                <p class="row justify-content-md-center">email:John.Doe@mail.montclair.edu</p>
+        <div class="p-1 bg-secondary text-white">
+                <center><div id="copyrightOutput"></div>
+  
+                <script type="text/javascript">
+                var date=new Date(),
+                year = date.getFullYear(),
+                text = "Copyright © " + year + " GroupX's Resort \n";
+                document.getElementById("copyrightOutput").innerHTML=text;
+                </script>
+                email:John.Doe@mail.montclair.edu</center>
         </div>
 
 </footer>
