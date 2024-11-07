@@ -31,7 +31,7 @@
                     <a class="nav-link" href=yurts.php>Yurts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href=activities.php>Activities</a>
+                    <a class="nav-link" href=default.php>Activities</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href=reservation.php>Reservations</a>

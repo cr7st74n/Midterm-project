@@ -6,6 +6,7 @@
 <?php include('./view/header.php'); ?>
 
 <body>
+    <main class="container">
     <?php
     $image_url = './img/yurt-exterior.jpg';
     ?>
@@ -26,6 +27,8 @@
         <li><?php echo 'Comfort and Warmth: Queen-sized bed with down quilt and a gas-fired stove for chilly evenings.'; ?></li>
         <li><?php echo 'Rustic Elegance: Combines the camping vibe with luxurious amenities.'; ?></li>
     </ul>
+    </main>
+
 
     <?php include("./view/footer.php"); ?>
 </body>
